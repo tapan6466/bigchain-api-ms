@@ -1,0 +1,15 @@
+server:
+  port: 8088
+  context-path: /bigchain/api
+spring:
+  application:
+    name: bigchain-api-ms
+  data:
+    mongodb:
+      database: mongo
+logging:
+    level: 
+      org.sppringframework.web: DEBUG
+      com.pwc.bigchain.app: DEBUG
+    pattern:
+      console: "%d{yyyy/MM/dd HH:mm:ss} - %msg%n"

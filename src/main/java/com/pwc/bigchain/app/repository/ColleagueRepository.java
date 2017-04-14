@@ -9,7 +9,7 @@ package com.pwc.bigchain.app.repository;
  */
 import org.springframework.data.mongodb.repository.MongoRepository;
 
-import com.pwc.bigchain.app.entity.Colleague;
+import com.bigchain.api.model.Colleague;
 
 import java.util.List;
 
