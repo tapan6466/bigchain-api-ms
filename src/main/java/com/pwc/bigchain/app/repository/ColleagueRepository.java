@@ -13,9 +13,12 @@ import com.bigchain.api.model.Colleague;
 
 import java.util.List;
 
-
 public interface ColleagueRepository extends MongoRepository<Colleague, String> {
 
-    public List<Colleague> findByName(String name);
+	/**
+	 * @param name
+	 * @return
+	 */
+	public List<Colleague> findByName(String name);
 
 }
